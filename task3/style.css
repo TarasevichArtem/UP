@@ -1,0 +1,199 @@
+body, html {
+
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    color: darkgrey;
+}
+
+.header{
+    font-family: fantasy script;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 4vw;
+    line-height: 4.8vh;
+    color: black;
+    text-transform: uppercase;
+    padding: 12vh 0;
+}
+
+.top-panel{
+    display: flex;
+    width: 100%;
+    background-color: darkblue;
+    line-height: 2.4vw;
+    text-align: right;
+    flex-display: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.user {
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+}
+
+.username {
+    font-family: fantasy script;
+}
+
+.logout {
+    float: right;
+    background-color: #009be2;
+    color: #17fa00;
+    font-size: 15px;
+    font-family: fantasy;
+    padding: 5px;
+    border-radius: 10px;
+    border: 2px #ffffff;
+}
+
+.add{
+    justify-content: center;
+    align-items: center;
+    background-image: -webkit-linear-gradient(top, #009be2, #fff);
+    border-radius: 30%;
+    color: #17fa00;
+    font-size: 15px;
+    font-family: fantasy;
+    padding: 5px;
+    border-radius: 10px;
+    border: 2px #ffffff;
+}
+
+.searchPanel{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: stretch;
+
+}
+
+.content{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    background-color: #00bbff;
+    color: gray;
+}
+
+.photopost{
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    align-items: flex-start;
+}
+
+.info{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    font-family: "Fira Code Light";
+    font-size: 1em;
+    margin: 10px;
+}
+
+.photo{
+    position: relative;
+    max-width: 400px;
+    max-height: 200px;
+    border: 2px crimson;
+    margin: 10px;
+    border-radius: 20px 20px 20px 20px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.description{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    font-family: segoe print;
+    font-size: 1em;
+    margin: 10px;
+}
+
+.hashTags{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    font-family: "Times New Roman";
+    font-size: 1em;
+    margin: 10px;
+}
+
+.likes{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    font-family: Narkisim;
+    font-size: 1em;
+    margin: 10px;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: Narkisim;
+    font-size: 1em;
+    margin: 10px;
+
+}
+
+.like {
+    background-image: -webkit-linear-gradient(top, #f4f1ee, #fff);
+    float: right;
+    position: relative;
+    height: 25px;
+    margin: 0 30px 30px 0;
+    width: 50px;
+}
+
+.like:after {
+    content: "Like ";
+    color: darkblue;
+}
+
+.edit {
+    background-image: -webkit-linear-gradient(top, #f4f1ee, #fff);
+    float: right;
+    position: relative;
+    height: 25px;
+    margin: 0 30px 30px 0;
+    width: 50px;
+}
+
+.edit:after {
+    content: "Edit";
+    color: darkblue;
+}
+
+.delete {
+    background-image: -webkit-linear-gradient(top, #f4f1ee, #fff);
+    float: right;
+    position: relative;
+    height: 25px;
+    margin: 0 30px 30px 0;
+    width: 60px;
+    color: aquamarine;
+}
+
+.delete:after {
+    content: "Dellete";
+    color: #00008b;
+}
+
+.footer{
+    width: 100%;
+    background-color: darkgrey;
+    padding: 3.6vh 0;
+    color: #3747f4;
+    font-size: 1.2vw;
+    line-height: 1.2vw;
+    text-align: left;
+}

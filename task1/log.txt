@@ -1,0 +1,11 @@
+commit 09bd7f9a98719aa3aa0b42f8a9c8784a5a803db9 (HEAD -> master)
+Author: TarasevichArtem <artem.tarasevich@list.ru>
+Date:   Mon Feb 19 14:42:46 2018 +0300
+
+    add .gitignore
+
+commit 8975a5bd941a459a04c76787a0440336715de822
+Author: TarasevichArtem <artem.tarasevich@list.ru>
+Date:   Mon Feb 12 15:46:53 2018 +0300
+
+    .gitignore
